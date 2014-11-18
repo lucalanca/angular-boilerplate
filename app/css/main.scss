@@ -1,0 +1,11 @@
+.foo {
+  .bar {
+    color: #ff0;
+  }
+}
+
+.bar {
+  .foo {
+    background: #fff;
+  }
+}
