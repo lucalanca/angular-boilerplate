@@ -1,0 +1,19 @@
+default:
+  - clean
+  - html-dev
+  - css-dev
+  - connect:server
+  - watch
+
+
+html-dev:
+  - wiredep:jade
+  - jade:templates
+
+css-dev:
+  - scsslint
+  - sass:dev
+
+
+js-dev:
+  - eslint
